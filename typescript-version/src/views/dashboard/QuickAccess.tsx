@@ -64,7 +64,7 @@ const salesData: DataType[] = [
 
 const renderStats = () => {
   return salesData.map((item: DataType, index: number) => (
-    <Grid item xs={12} sm={3} key={index}>
+    <Grid item xs={12} sm={2} key={index}>
       <Box key={index} sx={{ display: 'flex', alignItems: 'center' }}>
         <Avatar
           variant='rounded'
@@ -90,11 +90,11 @@ const renderStats = () => {
   ))
 }
 
-const StatisticsCard = () => {
+const QuickAccess = () => {
   return (
     <Card>
       <CardHeader
-        title='Statistics Card'
+        title='Quick Access'
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
             <DotsVertical />
@@ -117,7 +117,7 @@ const StatisticsCard = () => {
       />
 
       <CardContent sx={{ pt: theme => `${theme.spacing(3)} !important` }}>
-        <Grid container spacing={[5, 0]}>
+        <Grid container spacing={[5, 3]}>
           {renderStats()}
         </Grid>
       </CardContent>
@@ -125,4 +125,4 @@ const StatisticsCard = () => {
   )
 }
 
-export default StatisticsCard
+export default QuickAccess

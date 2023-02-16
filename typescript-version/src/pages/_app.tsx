@@ -75,7 +75,7 @@ const App = (props: ExtendedAppProps) => {
     <div>
       <CacheProvider value={emotionCache}>
         <Head>
-          <title>{`${themeConfig.templateName} - Material Design React Admin Template`}</title>
+          <title>{`${themeConfig.templateName} - DataAnalysis`}</title>
 
           <meta
             name='description'

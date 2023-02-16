@@ -1,6 +1,6 @@
 {
-  "name": "materio-mui-react-nextjs-admin-template-free",
-  "description": "Most Powerful & Comprehensive Free MUI React NextJS Admin Dashboard Template built for developers! 🚀",
+  "name": "materio-mui",
+  "description": "Most Powerful & Comprehensive Free MUI React NextJS Admin Dashboard",
   "license": "MIT",
   "version": "1.0.0",
   "author": {
@@ -54,7 +54,7 @@
     "apexcharts-clevision": "3.28.5",
     "clsx": "^1.2.1",
     "mdi-material-ui": "^7.6.0",
-    "next": "13.1.1",
+    "next": "13.1.2",
     "nprogress": "^0.2.0",
     "react": "18.2.0",
     "react-apexcharts": "^1.4.0",
